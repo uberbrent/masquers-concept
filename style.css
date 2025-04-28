@@ -1,4 +1,33 @@
+body {
+    margin: 0;
+    background-image: url(https://themasquers.org/images/background.jpg);
+}
+
 header {
     display: flex;
     justify-content: center;
+}
+
+.content-wrapper {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.content-window {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navItem {
+    padding: 15px;
+}
+
+.hero {
+    width: 100%;
 }
